@@ -1,0 +1,22 @@
+body {
+ 	font-family: $main-font-family; 
+	line-height: 1.5;
+	font-size: $link-font-size;
+}
+
+a { 
+	color: $link-color;
+	text-decoration: none;  
+}
+
+#wrapper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: $conteiner-width;
+	padding: 0 15px;
+	margin: 0 auto;
+}   
